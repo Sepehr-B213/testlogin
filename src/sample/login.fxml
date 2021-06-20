@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import org.controlsfx.control.textfield.CustomPasswordField?>
+<?import org.controlsfx.control.textfield.CustomTextField?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="830.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="107.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/depositphotos_470882034-stock-illustration-book-gold-plated-metalic-icon.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="23.0" layoutY="80.0" text="کتابخونه" textFill="#e3c30e">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <CustomTextField layoutX="300.0" layoutY="166.0" prefHeight="26.0" prefWidth="225.0" promptText="username">
+         <font>
+            <Font name="2  Baran" size="12.0" />
+         </font>
+      </CustomTextField>
+      <CustomPasswordField layoutX="302.0" layoutY="261.0" prefHeight="26.0" prefWidth="225.0" promptText="password">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </CustomPasswordField>
+      <ImageView fitHeight="52.0" fitWidth="49.0" layoutX="253.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/username-icon-9.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="49.0" layoutX="253.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/20-202249_lock-protect-safety-secure-safe-security-password-svg.png" />
+         </image>
+      </ImageView>
+      <JFXCheckBox checkedColor="#f2de07" layoutX="278.0" layoutY="332.0" prefHeight="35.0" prefWidth="136.0" text="شرایط" textFill="#d7e125" unCheckedColor="#d0bf08" wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXCheckBox>
+      <JFXButton layoutX="371.0" layoutY="433.0" prefHeight="35.0" prefWidth="79.0" ripplerFill="BLACK" style="-fx-background-color: #FDD700;" text="sign up" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
